@@ -1,0 +1,4 @@
+[27-Nov-2018 13:24:06 Asia/Tokyo] PHP Fatal error:  Cannot redeclare App\Http\Controllers\ClubsController::fencing_rule_destroy() in /home/ubuntu/workspace/cms/app/Http/Controllers/ClubsController.php on line 310
+[29-Nov-2018 18:36:44 Asia/Tokyo] PHP Fatal error:  Cannot redeclare App\Http\Controllers\LikesController::likestore() in /home/ubuntu/workspace/cms/app/Http/Controllers/LikesController.php on line 69
+[01-Dec-2018 00:29:08 Asia/Tokyo] PHP Fatal error:  Cannot use App\Clubchat as Clubchat because the name is already in use in /home/ubuntu/workspace/cms/app/Http/Controllers/Club/FencingController.php on line 17
+[09-Dec-2018 11:54:51 Asia/Tokyo] PHP Fatal error:  Cannot redeclare App\Http\Controllers\IntroductionsController::index() in /home/ubuntu/workspace/cms/app/Http/Controllers/IntroductionsController.php on line 145

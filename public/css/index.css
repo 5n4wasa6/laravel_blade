@@ -1,0 +1,179 @@
+/*body {*/
+/*    font-family: sans-serif;*/
+/*}*/
+
+
+
+/*------------------------------------------------navバー--*/
+.navigation_nav {
+    display: flex;
+}
+/*--------------------------------------------navバー END--*/
+
+
+/*----------------------------------------------活動記録--*/
+.icon_activity_wrapper {
+    display: flex;
+}
+.activity_record_wrapper {
+    margin-bottom: 5vh;
+}
+.img-circle {
+   height:47px;
+   width: 47px;
+   border: solid 1px blue;
+   margin-right: 1vh;
+}
+.form-control.input-lg.icon_activity_input {
+    border-radius: 40px;
+}
+/*------------------------------------------活動記録 END--*/
+
+
+/*--------------------------------------ディスカッション--*/
+.well.discussion_wrapper {
+    background-color: rgba(0, 217, 255, 0.10);
+    margin-top: 3vh;
+}
+.discussion_text {;
+    border-bottom: solid 0.5px blue;
+    padding-bottom: 3px;
+    font-weight: bold;
+	text-decoration-color: blue;
+	color: blue;
+}
+/*---------------------------------ディスカッション END--*/
+
+
+/*---------------------------------------------TIMELINE--*/
+.profile_name {
+    display: flex;
+    margin-bottom: 1vh;
+}
+.post_name {
+    text-decoration: none;
+	color: black;
+}
+
+.lead.tl_name {
+    margin:0.5vh 0 0 0.5vh;
+}
+.tl_text {
+    margin-bottom: 2vh;
+}
+.tl_language {
+    font-weight: bold;
+    color:black;
+}
+.see_more {
+    text-align: right;
+}
+/*-----------------------------------------TIMELINE END--*/
+
+
+
+/* ----------------------------------------- Activity ---*/
+.activity_wrapper  {
+    border:1px solid blue;
+    background-color: rgba(0, 217, 255, 0.08);
+}
+.activity_list {
+    width: 25vh;
+    margin: 1vh 0 0;
+    color: blue;
+}
+.activity_activity {
+    color: blue;
+    font-weight: bold;
+    font-size: 3vh;
+}
+.activity_roop {
+    /*display: flex;*/
+    border:1px solid blue;
+    background-color: rgba(0, 217, 255, 0.08);
+    padding: 5vh 3vh 3vh 2vh;
+}
+
+
+.card.border-primary.mb-3 {
+    border-radius: 10px;
+    border: 2px solid blue;
+    padding: 0;
+    margin: 0 1.5vh;
+}
+
+.card-deck.goal_carddeck {
+    padding: 0;
+}
+
+.card-body.activity_card {
+    padding: 5vh 0vh;
+}
+
+.card-text.card_title {
+    font-weight: bold;
+    color: black;
+}
+
+
+
+
+.subject_title {
+    margin:0 6.5vh 6vh 6.5vh;
+}
+.subject_roop {
+    margin:0 1vh;
+}
+/*-------------------------------------------- Activity END ---*/
+
+
+/*--------------------------------- 全ディスカッションページ --*/
+.thema {
+    text-align: center;
+    margin-top: 4vh;
+}
+.thema_text {
+    font-weight: bold;
+    text-align: center;
+}
+.discussion_title_text {
+    color: black;
+    font-weight: bold;
+    letter-spacing: 1.1px;
+    line-height: 1.3em;
+    text-align: center;
+}
+.comments {
+    display: flex;
+}
+
+/*------------------------------ 全ディスカッションページ END--*/
+
+
+/*---------------------------------- _comment_repliesページ --*/
+.display-comment .display-comment {
+        margin-left: 40px
+    }
+    
+.display-comment {
+    margin-bottom: 10px;
+}
+.middle_comment {
+    margin-bottom: 5px;
+    /*display: flex;*/
+}
+.comennt_body {
+    margin-left:43px;
+}
+.small_comment {
+    display: flex;
+}    
+    
+.discuss_comment_name {
+    margin-left:10px;
+}
+.reply_comments {
+    margin-left:40px
+}
+
+/*------------------------------ _comment_repliesページ END --*/

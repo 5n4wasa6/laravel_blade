@@ -1,0 +1,70 @@
+
+
+p {
+    margin: 0.8vh 0 0.8vh 0.6vh;
+    font-weight: bold;
+    color: black;
+}
+
+
+.col-sm-4 {
+    height: 25vh;
+    overflow: scroll;
+}
+
+.sidenav {
+    background-color: #cfe9f222;
+}
+.deleted-box {
+    position: fixed;
+    bottom: 20px;
+    top:51%;
+    left: 99.5%;
+    margin-left: -58px;
+}
+
+.Grid{
+    /* position: absolute; */
+    height: 35vh;
+    display: grid;
+    grid-template-columns: repeat(31, auto);
+    grid-gap: 5px;
+}
+.s {
+    font-weight: bold;
+    color: blue;
+    background-color: #30b5e622;
+    height: -webkit-fill-available;
+    overflow: scroll;
+    text-align: center;
+}
+
+
+/*On small screens, set height to 'auto' for sidenav and grid */
+@media screen and (max-width: 767px) {
+    .sidenav {
+        height: auto;
+        padding: 15px;
+    }
+    .row.content {
+        height: auto;
+    }
+}
+.task-view {
+    border-style: solid;
+    margin: 1px;
+}
+.task-view textarea {
+    font-weight: bold;
+    resize: vertical;
+    align-items: middle;
+}
+
+
+.task-view.ocean {
+    border-color: blue;
+    /*height: 5vh;*/
+}
+.task-view.ocean textarea {
+    align-items: middle;
+}

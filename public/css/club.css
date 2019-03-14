@@ -1,0 +1,136 @@
+
+/*----------------------------------- クラブ(club.blade.php) --*/
+.item {
+  padding: 4px 8px;
+  transition: background-color 0.4s;
+}
+.is-active {
+  background: #ffeaea;
+}
+
+/*----------------------------------クラブ(club.blade.php) END--*/
+
+
+/*--------------------------------------------------------共通--*/
+body {
+    text-align: center;
+}
+@media screen and (min-width:0px){
+  .image_wrapper {
+      width: 100%;
+  }
+}
+
+@media screen and (min-width:760px){
+  .image_wrapper {
+      width: 50%;
+  }
+}
+
+.club_club {
+    font-weight: bold;
+    margin-top: 2vh;
+}
+.club_member {
+    display: flex;
+}
+.club_nav {
+    display: flex;
+}
+.main_sub_manager {
+    /*border-bottom: solid 0.5px blue;*/
+    /*padding-bottom: 3px;*/
+    font-weight: bold;
+	text-decoration-color: black;
+	color: black;
+}
+/*----------------------------------------------------共通 END--*/
+
+
+/*---------------------------------------TOPページ(Discussion)--*/
+.thread {
+    text-align: left;
+}
+/*.club_discussion_post {*/
+/*    margin-left: 2vh;*/
+/*}*/
+#body {
+    margin-left: 1vh;
+}
+.club_discussion_img {
+    display: flex;
+}
+#club_img {
+    margin-left: 4vh;
+}
+.btn.btn-primary.thread_btn {
+    margin:1vh 0 0 18vh;
+}
+.border-primary {
+    margin: 0 5vh;
+}
+
+.comments {
+    display:flex;
+}
+.discussion_editdelete {
+    display: flex;
+}
+
+/*-----------------------------------TOPページ(Discussion) END--*/
+
+
+/*--------------------------------------------------------RULE--*/
+.rule_text {
+    font-weight: bold;
+    text-decoration-line: underline;
+	text-decoration-color: blue;
+}
+.rule_wrapper {
+    background-color: rgba(0, 217, 255, 0.05);
+    border:1px solid blue;
+    border-radius: 25px;
+}
+.original_rule {
+    font-weight: bold;   
+}
+.club_edit_delete {
+    display: flex;
+}
+.all_rule_text {
+    font-weight: bold;
+}
+
+.club_admin {
+    text-align: right;
+    margin:5vh 3vh 0 0;
+    font-size: 15px;
+}
+.rule_input {
+    display: flex;
+}
+#club_rule {
+    width: 40vh;
+}
+/*----------------------------------------------------RULE END--*/
+
+
+/*-------------------------------------------------------ADMIN--*/
+.manager {
+    font-size: 2vh;
+    margin-bottom: 2vh;
+}
+.manager_text {
+    margin:0 1vh 0 0;
+}
+/*------------------------------------------------------ADMIN--*/
+
+
+/*------------------------------------フェンシングイベントPage--*/
+.f_table {
+    display: flex;
+}
+.f_event_text {
+    margin-right: 2vh;
+}
+/*--------------------------------フェンシングイベントPage END--*/

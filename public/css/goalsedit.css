@@ -1,0 +1,137 @@
+/*.col-sm-4 {*/
+/*    height: 25vh;*/
+/*    overflow: scroll;*/
+/*}*/
+
+/*.sidenav {*/
+/*    background-color: #cfe9f222;*/
+/*}*/
+/*.deleted-box {*/
+/*    position: fixed;*/
+/*    bottom: 20px;*/
+/*    top:51%;*/
+/*    left: 99.5%;*/
+/*    margin-left: -58px;*/
+/*}*/
+
+/*.Grid{*/
+    /* position: absolute; */
+/*    height: 35vh;*/
+/*    display: grid;*/
+/*    grid-template-columns: repeat(31, auto);*/
+/*    grid-gap: 5px;*/
+/*}*/
+/*.s {*/
+/*    font-weight: bold;*/
+/*    color: blue;*/
+/*    background-color: #30b5e622;*/
+/*    height: -webkit-fill-available;*/
+/*    overflow: scroll;*/
+/*    text-align: center;*/
+/*}*/
+
+
+/*On small screens, set height to 'auto' for sidenav and grid */
+@media screen and (max-width: 767px) {
+    .sidenav {
+        height: auto;
+        padding: 15px;
+    }
+    .row.content {
+        height: auto;
+    }
+}
+.task-view {
+    border-style: solid;
+    margin: 1px;
+}
+.task-view textarea {
+    font-weight: bold;
+    resize: vertical;
+}
+/*.task-view.darkorchid {*/
+/*    border-color: darkorchid;*/
+/*}*/
+/*.task-view.darkorchid textarea {*/
+/*    color: darkorchid;*/
+/*}*/
+/*.task-view.green {*/
+/*    border-color: green;*/
+/*}*/
+/*.task-view.green textarea {*/
+/*    color: green;*/
+/*}*/
+/*.task-view.red {*/
+/*    border-color: red;*/
+/*}*/
+/*.task-view.red textarea {*/
+/*    color: red;*/
+/*}*/
+
+/*.task-view.blue {*/
+/*    border-color: blue;*/
+/*}*/
+/*.task-view.blue textarea {*/
+/*    color: blue;*/
+/*}*/
+
+/*.task-view.skyblue {*/
+/*    border-color: blue;*/
+/*}*/
+/*.task-view.skyblue textarea {*/
+/*    color: blue;*/
+/*}*/
+
+.task-view.ocean {
+    border-color: blue;
+}
+/*.task-view.ocean textarea {*/
+/*    color: blue;*/
+/*}*/
+
+/*.task-view.aaaa {*/
+/*    border-color: darkorchid;*/
+/*}*/
+/*.task-view.aaaa textarea {*/
+/*    color: darkorchid;*/
+/*}*/
+
+/*.task-view.aaa {*/
+/*    border-color: red;*/
+/*}*/
+/*.task-view.aaa textarea {*/
+/*    color: red;*/
+/*}*/
+
+/*.task-view.abc {*/
+/*    border-color: green;*/
+/*}*/
+/*.task-view.abc textarea {*/
+/*    color: green;*/
+/*}*/
+
+/*.task-view.xyz {*/
+/*    border-color: red;*/
+/*}*/
+/*.task-view.xyz textarea {*/
+/*    color: red;*/
+/*}*/
+/*.task-view.zzz {*/
+/*    border-color: green;*/
+/*}*/
+/*.task-view.zzz textarea {*/
+/*    color: green;*/
+/*}*/
+
+
+/*#goal_img {*/
+/*    margin-bottom: 5vh;*/
+/*}*/
+
+/*.chat_wrapper {*/
+/*    display: flex;*/
+/*}*/
+
+/*.chat_btn {*/
+/*    margin:3vh 0 0 0.5vh;*/
+/*}*/

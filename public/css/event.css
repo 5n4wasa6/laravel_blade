@@ -1,0 +1,49 @@
+
+
+/*--定型--*/
+.slider_wrapper {
+    padding: 5px;
+    /*margin:0 0 2vh 0;*/
+    overflow-x: auto;
+    overflow-y: hidden;
+    background-color: white;
+    border-color: #d3e0e9;
+    font-weight: bold;
+}
+.slider {
+    width: 200vh;
+    -webkit-overflow-scrolling: touch;
+}
+.slider > * {
+    -webkit-transform: translateZ(0px);
+}
+.slider-wrapper::-webkit-scrollbar {
+    display: none;
+    height: 0 !important;
+}
+.unit {
+    color: black;
+    float:  left;
+    width:  160px;
+    height: 200px;
+    margin: 0 0 0 3vh;
+    border: 1px solid blue;
+    background-color: rgba(0, 217, 255, 0.13);;
+}
+.unit:first-child {
+    margin: 0;
+}
+/*--定型--*/
+
+
+
+/*---------------------------------------------------リコメンドEVENT--*/
+.recommend_event_title {
+     text-decoration-line: underline;
+	text-decoration-color: black;
+	color: black;
+}
+
+
+
+/*-----------------------------------------------リコメンドEVENT END--*/

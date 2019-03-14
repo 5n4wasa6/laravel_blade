@@ -1,0 +1,24 @@
+
+.commit_text {
+    font-weight: bold;
+	color: black;
+	margin-bottom: 3vh;
+}
+
+.commit_input {
+    margin: 2vh 0 0 2vh;
+    display: flex;
+}
+#comment {
+    width: 25vh;
+}
+
+.commit_term {
+    margin-left: 1vh;
+}
+.commit_btn {
+    margin-left: 1vh;
+}
+.commit_list {
+    margin-right: 1vh;
+}
